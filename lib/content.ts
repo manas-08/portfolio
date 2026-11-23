@@ -129,11 +129,6 @@ export const sideProjects: SideProject[] = [
       'with a Vite + Tailwind front end.',
   },
   {
-    repo: 'majorProject_7thSem_GNN',
-    title: 'Graph Neural Network Major Project',
-    blurb: 'Seventh-semester research project exploring graph neural networks.',
-  },
-  {
     repo: 'word_of_the_day',
     title: 'Word of the Day',
     blurb: 'A GitHub Actions cron that rewrites its own README with a new word ' +

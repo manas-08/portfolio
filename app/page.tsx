@@ -200,6 +200,12 @@ function TitleBlock() {
   return (
     <header className="pb-12 pt-16 text-center sm:pt-24">
       <Reveal>
+        <p className="font-mono text-[11px] uppercase tracking-[0.2em]
+          text-muted">
+          Field notes · receipts preferred · revised daily
+        </p>
+      </Reveal>
+      <Reveal delay={0.05}>
         <h1 className="mx-auto mt-8 max-w-4xl font-display
           text-[clamp(2.75rem,8vw,6.25rem)] leading-[0.95] tracking-tight">
           On Building Machines
@@ -207,7 +213,7 @@ function TitleBlock() {
           That <em className="text-accent">Show Their Work</em>
         </h1>
       </Reveal>
-      <Reveal delay={0.05}>
+      <Reveal delay={0.1}>
         <p className="mt-8 text-xl">
           <span className="small-caps text-2xl">Manas Shende</span>
           <sup className="ml-0.5 font-mono text-xs text-accent">1,2</sup>
