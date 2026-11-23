@@ -67,24 +67,6 @@ npm run start   # serve the build
 npm run lint    # ESLint
 ```
 
-## Content
-
-Most copy lives in [`lib/content.ts`](lib/content.ts): profile links, featured projects, side projects, skills, and timeline. Update that file when the résumé or GitHub repos change.
-
-Optional environment variables:
-
-| Variable | Purpose |
-| --- | --- |
-| `NEXT_PUBLIC_SITE_URL` | Canonical site URL for Open Graph / metadata |
-| `GITHUB_TOKEN` | Optional GitHub token to raise API rate limits for live repo metadata |
-
-## Deploy on Vercel
-
-1. Import [manas-08/portfolio](https://github.com/manas-08/portfolio) at [vercel.com/new](https://vercel.com/new).
-2. Deploy with the default Next.js settings.
-3. Set the GitHub repository Website field to the live URL (for example `https://your-project.vercel.app`).
-4. Optionally set `NEXT_PUBLIC_SITE_URL` and `GITHUB_TOKEN` in the Vercel project environment.
-
 ## License
 
 Personal portfolio. All rights reserved unless noted otherwise in individual dependencies.
